@@ -1,0 +1,58 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* this is nav sec */
+
+nav {
+  display: flex;
+
+  /* justify-content: space-between; */
+
+  align-items: center;
+
+  color: #181818;
+
+  font-size: 45px;
+
+  font-weight: 800;
+}
+
+.pcolor {
+  color: #fd6e0a;
+}
+
+nav > ul {
+  display: flex;
+ align-items: center;
+
+}
+
+nav li {
+  list-style: none;
+  margin-right: 51px;
+ 
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+
+/* btn */
+
+.pbtn {
+  border-radius: 5px;
+  background: #fd6e0a;
+
+       border: 0px;
+       color: var(--white-color, #FFF);
+
+font-size: 20px;
+
+font-weight: 700;
+
+padding: 15px 35px;
+
+
+
+}
