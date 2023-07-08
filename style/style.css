@@ -9,8 +9,6 @@ nav {
   justify-content: space-between;
 
   align-items: center;
-
-
 }
 
 .pcolor {
@@ -19,14 +17,12 @@ nav {
 
 nav > ul {
   display: flex;
- align-items: center;
-
+  align-items: center;
 }
 
 nav li {
   list-style: none;
   margin-right: 51px;
- 
 }
 
 nav a {
@@ -40,39 +36,145 @@ nav a {
   border-radius: 5px;
   background: #fd6e0a;
 
-       border: 0px;
-       color: var(--white-color, #FFF);
+  border: 0px;
+  color: var(--white-color, #fff);
 
-font-size: 20px;
+  font-size: 20px;
 
-font-weight: 700;
+  font-weight: 700;
 
-padding: 15px 35px;
+  padding: 15px 35px;
+}
 
+/* header style */
+
+.header {
+  background: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.bannar {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.bannar .dp {
+  width: 500px;
+}
+.bannar-greeting {
+  font-size: 45px;
+
+  color: #474747;
+  margin-bottom: 0px;
+}
+.bannar-title {
+  font-size: 85px;
+
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.bannar-dis {
+  margin-top: 0px;
+}
+
+.bannar-contant {
+  max-width: 500px;
+}
+
+/* main section style  */
+
+/* about section style  */
+
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0px ;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+
+  font-size: 35px;
+
+  font-weight: 700;
+
+}
+
+.sec-des{
+
+  color: #757575;
+text-align: center;
+font-size: 18px;
+
+}
+
+main{
+
+  max-width: 1140px;
+    margin: 0px auto;
+    
+
+}
+  
+main section{
+
+  margin: 130px;
 
 
 }
 
+.about-info-container{
 
-    /* header style */
+    display: flex;
+     justify-content: space-around;
 
-    .header{
+}
+#what-i-do-description{
 
-      background: #FFF8F3;
+   padding: 30px 150px;
 
-    }
+}
+
+.skils-container{
+
+   display: flex;
+   gap: 24px;
+
+}
+
+.skill{
+
+ padding: 30px;
+
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description{
+
+  color: #757575;
+
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 28px;
 
 
-    .bannar{
+}
+.resume-column-title{
 
-      padding: 30px 30px 30px 150px ;
-     display: flex;
-     
-    align-items: center;
+  color:  #474747;
+ 
+  font-size: 30px;
 
-    }
-    .bannar .dp {
+  font-weight: 700;
+    
 
-     width: 500px;
-
-    }
+}
