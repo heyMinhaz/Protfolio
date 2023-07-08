@@ -6,15 +6,11 @@ body {
 nav {
   display: flex;
 
-  /* justify-content: space-between; */
+  justify-content: space-between;
 
   align-items: center;
 
-  color: #181818;
 
-  font-size: 45px;
-
-  font-weight: 800;
 }
 
 .pcolor {
@@ -56,3 +52,27 @@ padding: 15px 35px;
 
 
 }
+
+
+    /* header style */
+
+    .header{
+
+      background: #FFF8F3;
+
+    }
+
+
+    .bannar{
+
+      padding: 30px 30px 30px 150px ;
+     display: flex;
+     
+    align-items: center;
+
+    }
+    .bannar .dp {
+
+     width: 500px;
+
+    }
