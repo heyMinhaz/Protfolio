@@ -209,5 +209,40 @@ main section{
 .download-cv{
 
    text-align: center;
+    margin-top: 50px;
+
+}
+.section-dscription{
+
+
+   text-align: center;
+
+}
+footer{
+
+   display: flex;
+   background: #FFF8F3;
+   margin-top: 100px;
+   gap: 100px;
+    padding: 130px 200px ;
+
+}
+.footer-column{
+
+width: 50%;
+
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+
+display: block;
+
+margin-bottom: 25px;
+  padding: 18px 35px ;
+  background: #FFF8F3;
+  border-radius: 5px;
+  background: #FFF;
+  border: 0;
+  width: 100%;
 
 }
